@@ -12,7 +12,7 @@ const ClickedUser = require('./clicker');
 const app = express();
 const PORT = 8080;
 
-const uri = 'mongodb+srv://luckymoney:<1232001Truc>@cluster0.hcqcnwe.mongodb.net/?retryWrites=true&w=majority'
+const uri = 'mongodb+srv://luckymoney:1232001Truc@cluster0.hcqcnwe.mongodb.net/'
 
 mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(async () => {
